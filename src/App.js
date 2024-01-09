@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Navigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import RouteList from "./components/RouteList";
 
 /**
@@ -26,13 +26,14 @@ let initialFormData = { name: "", hex: "#000000" };
 function App() {
   const [colorsArr, setColors] = useState(initialColors);
   const [formData, setFormData] = useState(initialFormData);
+  const navigate = useNavigate();
 
   const handleSubmit = (e) => {
     e.preventDefault();
     const newColor = { name: formData.name.toLowerCase(), hex: formData.hex };
     if (!colorsArr.find((color) => color.name === newColor.name)) {
       setColors((currentColors) => [newColor, ...currentColors]);
-      Navigate("/colors");
+      navigate("/colors");
     } else {
       alert("Color name already exists, choose another color");
     }
