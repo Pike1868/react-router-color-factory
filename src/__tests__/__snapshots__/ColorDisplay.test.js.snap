@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ColorDisplay Component Tests ColorDisplay matches snapshot 1`] = `
+<DocumentFragment>
+  <div
+    style="background-color: rgb(255, 0, 0); text-align: center; width: 100vw; height: 100vh; padding: 20px;"
+  >
+    <p
+      style="color: rgb(255, 255, 255); font-size: 2rem; font-weight: 600; margin: 0px 0px 50px; padding: 50px 0px;"
+    >
+      This is red.
+    </p>
+    <div>
+      <a
+        href="/colors"
+        style="color: rgb(255, 255, 255); font-size: 1.5rem; font-weight: 500;"
+      >
+        Go Back
+      </a>
+    </div>
+  </div>
+</DocumentFragment>
+`;

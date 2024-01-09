@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NavBar component matches snapshot 1`] = `
+<DocumentFragment>
+  <nav
+    style="padding: 50px; background-color: darkgray; text-align: center;"
+  >
+    <h3>
+      Welcome to Color Factory
+    </h3>
+    <a
+      href="/colors/new"
+      style="font-size: 1.5rem;"
+    >
+      Add a color
+    </a>
+  </nav>
+</DocumentFragment>
+`;

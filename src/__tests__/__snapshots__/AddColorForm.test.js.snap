@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AddColorForm matches snapshot 1`] = `
+<DocumentFragment>
+  <div
+    style="text-align: center;"
+  >
+    <form>
+      <label
+        for="name"
+      >
+        Choose a color name
+      </label>
+      <input
+        id="name"
+        name="name"
+        placeholder="Color Name"
+        required=""
+        style="margin: 20px;"
+        type="text"
+        value=""
+      />
+      <label
+        for="hex"
+      >
+        Choose a color hex
+      </label>
+      <input
+        id="hex"
+        name="hex"
+        required=""
+        style="margin: 20px;"
+        type="color"
+        value="#000000"
+      />
+      <button
+        type="submit"
+      >
+        Add new color
+      </button>
+    </form>
+  </div>
+</DocumentFragment>
+`;

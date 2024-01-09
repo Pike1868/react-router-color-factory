@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RouteList Component Tests RouteList renders ColorList for '/colors' route 1`] = `
+<DocumentFragment>
+  <div
+    style="text-align: center;"
+  >
+    <nav
+      style="padding: 50px; background-color: darkgray; text-align: center;"
+    >
+      <h3>
+        Welcome to Color Factory
+      </h3>
+      <a
+        href="/colors/new"
+        style="font-size: 1.5rem;"
+      >
+        Add a color
+      </a>
+    </nav>
+    <p
+      style="margin: 30px;"
+    >
+      Please select a color:
+    </p>
+    <ul
+      style="display: flex; flex-direction: column; justify-content: center;"
+    >
+      <a
+        href="/colors/red"
+      >
+        red
+      </a>
+      <a
+        href="/colors/green"
+      >
+        green
+      </a>
+      <a
+        href="/colors/blue"
+      >
+        blue
+      </a>
+    </ul>
+  </div>
+</DocumentFragment>
+`;
